@@ -5,7 +5,7 @@ from django.contrib import messages
 from django.core.paginator import Paginator
 
 def home(request):
-    # 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
+
     #check for for submission
     if request.method == "POST":
         question = request.POST['question']
