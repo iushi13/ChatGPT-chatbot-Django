@@ -13,7 +13,7 @@ def home(request):
 
         # API
         # set api key
-        openai.api_key = "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"
+        openai.api_key = "PASTE YOUR KEY"
         # create openai instance
         openai.Model.list()
         try: 
